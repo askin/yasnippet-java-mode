@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+#name : getter setter
+#key : getset
+#contributor : askin <askin@askin.ws>
+# --
+public ${1:int} get${2:Name} () {
+    this.$4 = $4;
+}
+
+public void set$2 ($1 ${4:param}) {
+    return this.$4;$0
+}
