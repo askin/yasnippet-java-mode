@@ -4,9 +4,9 @@
 #contributor : askin <askin@askin.ws>
 # --
 public ${1:int} get${2:Name} () {
-    this.$4 = $4;
+    return this.$4;
 }
 
 public void set$2 ($1 ${4:param}) {
-    return this.$4;$0
+    this.$4 = $4;$0
 }
