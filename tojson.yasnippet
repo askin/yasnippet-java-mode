@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# contributor: Askin Yollu <askin@askin.ws>
+# name: create toJSON method
+# key: toj
+# --
+public JSONObject toJSON () {
+    JSONObject j = null;
+    try {
+        j = new JSONObject();
+        j.put("$0", $1);
+    } catch (Exception e) {
+        // pass
+    }
+
+    return j;
+}
